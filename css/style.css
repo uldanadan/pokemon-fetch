@@ -1,0 +1,56 @@
+p {
+    margin: 0;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 7px 10px;
+    border: 1px solid #d8d8d8;
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#btn-prev {
+    background: lightcoral;
+} 
+
+#btn-next {
+    background: lightgreen;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.pokeItem {
+    margin-left: 30px;
+}
+
+.name {
+    cursor: pointer;
+}
+
+.name:hover {
+    background: lightgreen;
+}
+
+.pokeInfo {
+    background-color: pink;
+    padding: 50px 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
